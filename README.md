@@ -19,6 +19,7 @@
 .
 ├── README.md
 ├── 绘本创作源.md
+├── outputs/
 └── skills/
     ├── picturebook-check-local-record/
     ├── picturebook-story-design/
@@ -49,17 +50,28 @@ Copy-Item -Recurse -Force .\skills\picturebook-export-pdf-ppt $env:USERPROFILE\.
 
 ### 2. 创作前查重
 
-当你准备创建新的绘本故事时，先使用 `picturebook-check-local-record` 检查本地记录。默认记录文件位于：
+当你准备创建新的绘本故事时，先使用 `picturebook-check-local-record` 检查本地记录。当前仓库内的 SQLite 是唯一权威数据源：
 
 ```text
-~/.codex/picturebook-records/picturebook-records.json
+records/picturebook_records.sqlite
 ```
 
-也可以通过环境变量指定项目内记录文件：
+数据库结构和人工可读导出文件随仓库提交：
+
+```text
+records/schema.sql
+records/records.json
+```
+
+查询、登记和导出都在当前仓库根目录执行：
 
 ```powershell
-$env:PICTUREBOOK_RECORDS_PATH = "D:\codex-projects\picturebook-creation\picturebook-records.json"
+python .\skills\picturebook-check-local-record\scripts\picturebook_records.py check --series "系列" --theme "主题" --title "书名"
+python .\skills\picturebook-check-local-record\scripts\picturebook_records.py add --series "系列" --theme "主题" --title "书名" --status draft
+python .\skills\picturebook-check-local-record\scripts\picturebook_records.py export
 ```
+
+不再使用 `~/.codex/picturebook-records/picturebook-records.json` 或 `PICTUREBOOK_RECORDS_PATH`。
 
 ### 3. 设计故事包
 
@@ -74,12 +86,18 @@ $env:PICTUREBOOK_RECORDS_PATH = "D:\codex-projects\picturebook-creation\pictureb
 - 亲子互动建议。
 - 适合幼儿年龄。
 
+故事设计结果固定输出到当前仓库内：
+
+```text
+outputs/picturebooks/<series-slug>/<title-slug>/
+```
+
 ### 4. 导出 PDF/PPTX
 
 故事包完成后，使用 `picturebook-export-pdf-ppt` 输出交付物。默认输出目录约定为：
 
 ```text
-output/picturebooks/<series-slug>/<title-slug>/
+outputs/picturebooks/<series-slug>/<title-slug>/
 ```
 
 导出阶段应直接使用已经完成的封面和内页图片，不重新生成或替换图片。PDF 与 PPTX 的页序、图片和文字应保持一致。
@@ -91,7 +109,7 @@ output/picturebooks/<series-slug>/<title-slug>/
 3. 使用 `picturebook-story-design` 生成故事包。
 4. 自检儿童安全、故事节奏、角色一致性和页面构图。
 5. 使用 `picturebook-export-pdf-ppt` 生成 PDF 和 PPTX。
-6. 将本地记录更新为 `completed`，并写入输出目录。
+6. 将 SQLite 记录更新为 `completed`，写入输出目录，并运行 `export` 刷新 `records/records.json`。
 
 ## 创作原则
 

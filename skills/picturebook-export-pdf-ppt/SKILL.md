@@ -20,7 +20,7 @@ description: Use when a completed preschool picturebook story package, cover ima
 - 每张故事图片应作为对应页面的主画面完整放入文档，保持原图比例和核心内容，不裁掉书名、署名、角色脸部、故事文字或关键动作。
 - 如果故事文字已经嵌入图片，默认不要另行重复叠加文字；仅在用户或故事包明确要求可编辑文本层时添加覆盖层。
 - 末尾加入家长页：`这个故事想告诉孩子什么`、`亲子互动`、`适合幼儿年龄`。
-- 文件放在当前工作区下：`output/picturebooks/<series-slug>/<title-slug>/`。
+- 文件放在当前仓库下：`outputs/picturebooks/<series-slug>/<title-slug>/`。
 
 ## 推荐工具
 

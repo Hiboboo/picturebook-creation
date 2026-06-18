@@ -14,6 +14,16 @@ description: Use when creating or revising a preschool picturebook story from a 
 - `references/child-safety-and-consistency.md`
 - `references/story-output-contract.md`
 
+## 输出位置
+
+所有故事设计结果固定输出到当前仓库内的 `outputs` 目录，以仓库根目录为基准：
+
+```text
+outputs/picturebooks/<series-slug>/<title-slug>/
+```
+
+封面图片、内页图片、故事包文本、素材清单和后续导出文件路径都必须使用这个目录。不要输出到 `.codex`、用户主目录、临时目录或仓库外路径；除非用户明确要求额外复制一份，当前仓库内 `outputs` 仍然是主记录位置。
+
 ## 文字创作原则
 
 - 面向 `2-6` 岁幼儿读物：温柔、清晰、低冲突、可理解，让孩子看得懂、大人读得顺、翻完还想再读。
@@ -57,6 +67,7 @@ description: Use when creating or revising a preschool picturebook story from a 
 - 输出文字：这个故事想告诉孩子什么。
 - 输出文字：亲子互动。
 - 输出文字：适合幼儿年龄。
+- 输出路径：固定使用 `outputs/picturebooks/<series-slug>/<title-slug>/`，并在素材清单中列出封面、内页和故事包文件路径。
 
 如果当前环境可用 `imagegen`，为封面和每页生成实际图片。若图片数量较多，先生成封面和 1 页样张，确认风格后再批量生成其余页面。
 

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
+  "exported_at": "2026-06-18T08:41:24+00:00",
+  "records": [
+    {
+      "id": "d71df254bdfd8c41",
+      "series": "生活习惯养成系列",
+      "theme": "吃饭",
+      "title": "米米的小彩虹饭桌",
+      "status": "archived",
+      "summary": "已按用户要求改名为《乐乐的小彩虹饭桌》。",
+      "characters": "乐乐、妈妈、爸爸、外婆",
+      "style": "温暖手绘水彩叠加彩铅细线，3:4竖版，家庭餐桌场景",
+      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/lele-de-xiao-caihong-fanzhuo",
+      "created_at": "2026-06-18T08:14:08+00:00",
+      "updated_at": "2026-06-18T08:41:13+00:00"
+    },
+    {
+      "id": "ad4ce34e2d6e9fbc",
+      "series": "生活习惯养成系列",
+      "theme": "吃饭",
+      "title": "乐乐的小彩虹饭桌",
+      "status": "draft",
+      "summary": "乐乐用自己的红色小勺每样尝一小口，在家人温和陪伴下认识番茄、青菜、南瓜、豆腐和胡萝卜。",
+      "characters": "乐乐、妈妈、爸爸、外婆",
+      "style": "温暖手绘水彩叠加彩铅细线，3:4竖版，家庭餐桌场景，多视角构图",
+      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/lele-de-xiao-caihong-fanzhuo",
+      "created_at": "2026-06-18T08:41:20+00:00",
+      "updated_at": "2026-06-18T08:41:20+00:00"
+    }
+  ]
+}
