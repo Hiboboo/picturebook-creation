@@ -1,0 +1,8 @@
+interface:
+  display_name: "绘本 PDF/PPT 输出"
+  short_description: "把完成的幼儿绘本故事导出为PDF和PPTX"
+  default_prompt: "Use $picturebook-export-pdf-ppt to package a completed picturebook story into PDF and PPT files."
+
+policy:
+  allow_implicit_invocation: true
+

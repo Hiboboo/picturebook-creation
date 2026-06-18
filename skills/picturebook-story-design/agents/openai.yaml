@@ -1,0 +1,8 @@
+interface:
+  display_name: "幼儿绘本故事设计"
+  short_description: "创作安全一致的幼儿绘本故事和页面画面"
+  default_prompt: "Use $picturebook-story-design to design a preschool picturebook story with cover and page image prompts."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,8 @@
+interface:
+  display_name: "绘本记录查重"
+  short_description: "检查本地绘本记录并避免重复创作幼儿故事"
+  default_prompt: "Use $picturebook-check-local-record to check whether this picturebook story already exists before creating it."
+
+policy:
+  allow_implicit_invocation: true
+
