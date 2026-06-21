@@ -1,33 +1,33 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-06-18T08:41:24+00:00",
+  "exported_at": "2026-06-21T11:33:31+00:00",
   "records": [
     {
-      "id": "d71df254bdfd8c41",
-      "series": "生活习惯养成系列",
-      "theme": "吃饭",
-      "title": "米米的小彩虹饭桌",
-      "status": "archived",
-      "summary": "已按用户要求改名为《乐乐的小彩虹饭桌》。",
-      "characters": "乐乐、妈妈、爸爸、外婆",
-      "style": "温暖手绘水彩叠加彩铅细线，3:4竖版，家庭餐桌场景",
-      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/lele-de-xiao-caihong-fanzhuo",
-      "created_at": "2026-06-18T08:14:08+00:00",
-      "updated_at": "2026-06-18T08:41:13+00:00"
+      "id": "72d68b3b61db6053",
+      "series": "动物与自然科普系列",
+      "theme": "天气",
+      "title": "小松鼠追着风看彩虹",
+      "status": "draft",
+      "summary": "小松鼠顺着风的线索观察雨、雷声和雨后彩虹，理解天气会慢慢变化。",
+      "characters": "C01-小松鼠",
+      "style": "温柔水彩质感，适中偏简洁，3:4竖版",
+      "output_dir": "outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong",
+      "created_at": "2026-06-21T03:10:44+00:00",
+      "updated_at": "2026-06-21T03:49:43+00:00"
     },
     {
-      "id": "ad4ce34e2d6e9fbc",
-      "series": "生活习惯养成系列",
-      "theme": "吃饭",
-      "title": "乐乐的小彩虹饭桌",
+      "id": "f4b3a5094a680680",
+      "series": "亲情与爱的表达系列",
+      "theme": "妈妈的爱",
+      "title": "妈妈一直在",
       "status": "draft",
-      "summary": "乐乐用自己的红色小勺每样尝一小口，在家人温和陪伴下认识番茄、青菜、南瓜、豆腐和胡萝卜。",
-      "characters": "乐乐、妈妈、爸爸、外婆",
-      "style": "温暖手绘水彩叠加彩铅细线，3:4竖版，家庭餐桌场景，多视角构图",
-      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/lele-de-xiao-caihong-fanzhuo",
-      "created_at": "2026-06-18T08:41:20+00:00",
-      "updated_at": "2026-06-18T08:41:20+00:00"
+      "summary": "小米在客厅短暂看不见妈妈，通过声音、围裙、香味和妈妈的回应感到妈妈一直在。",
+      "characters": "C01-小米; A01-妈妈",
+      "style": "温暖水彩家庭感，第二版整体色调，绿植叶片轻微增绿；构图需幼儿视角、单核心动作、三角/视线连接、无大空墙，3:4竖版",
+      "output_dir": "outputs/picturebooks/qinqing-yu-ai-de-biaoda/mama-yizhi-zai",
+      "created_at": "2026-06-21T07:26:12+00:00",
+      "updated_at": "2026-06-21T11:33:31+00:00"
     }
   ]
 }
