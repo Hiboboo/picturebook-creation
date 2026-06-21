@@ -2,11 +2,11 @@
 
 ## 1. 交付状态
 
-- 当前状态：关键样张确认
-- 实际图片生成：是，已生成角色参考图、无字封面样张、第 4/5/8 页无字样张
-- 生成方式：人工文本设计 + AI 辅助无字插画样张，后续文字仍由可编辑排版层处理
-- 本次未完成项：环境参考图、其余无字内页、后期文字排版、PDF/PPT 导出
-- 需要用户确认项：是否进入其余内页批量出图与排版阶段
+- 当前状态：全书出图
+- 实际图片生成：是，已生成角色参考图、无字封面和 8 页无字内页
+- 生成方式：人工文本设计 + AI 辅助无字插画，后续文字仍由可编辑排版层处理
+- 本次未完成项：环境参考图、后期文字排版、PDF/PPT 导出
+- 需要用户确认项：是否进入文字排版与 PDF/PPT 导出阶段
 
 ## 2. 基本信息
 
@@ -183,10 +183,10 @@
 - 无字插画图像提示词：3:4 vertical watercolor picturebook page, no text, C01 little squirrel warm chestnut brown body cream cheeks and belly dark brown tail tip small green scarf, standing under a big tree at the left side of a forest path, leaves and grass tips gently moving to the right, curious calm expression, tree hollow visible at tree root, natural blank sky area upper left for later Chinese text, soft paper grain, preschool-safe.
 - 负面提示词：no text, no pseudo-Chinese characters, no scary mood, no violence, no extra limbs, no malformed paws, no duplicated squirrel, no outfit change, no floating objects, no random decorative clutter, no plastic skin.
 - 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
-- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-04-clean.png`
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-01-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：样张通过；安全通过；雨滴动作通过；角色锁定通过；道具状态通过；文字区通过；未见模型文字。
-- 单页状态：文本通过；关键样张已生成；排版图未生成
+- 单页 QA：通过；安全通过；建立场景、树洞锚点、风吹叶和围巾方向通过；角色锁定通过；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 2 页
 
@@ -217,10 +217,10 @@
 - 无字插画图像提示词：3:4 vertical watercolor picturebook page, no text, C01 little squirrel with fixed warm chestnut body cream cheeks dark tail tip and small green scarf, walking along a gentle forest path from left to right, leaves and grass bending in the same wind direction, big tree remains in far left background, focused curious expression, clean composition with blank upper right area for later Chinese text.
 - 负面提示词：no text, no pseudo-Chinese, no scary storm, no extra limbs, no malformed paws, no duplicated animal, no changed scarf color, no floating leaves clutter, no plastic texture.
 - 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
-- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-05-clean.png`
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-02-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：样张通过；安全通过；树洞锚点通过；角色锁定通过；雷声未恐怖化；未见模型文字。
-- 单页状态：文本通过；关键样张已生成；排版图未生成
+- 单页 QA：通过；安全通过；左到右移动方向、追风动作和角色锁定通过；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 3 页
 
@@ -251,10 +251,10 @@
 - 无字插画图像提示词：3:4 vertical watercolor page, no text, C01 little squirrel fixed design, standing on the same forest path and looking up, soft gray-blue clouds slowly moving closer, big tree crown as spatial anchor on the left, gentle curious puzzled expression, no frightening sky, natural blank upper left area for later Chinese text, soft watercolor paper texture.
 - 负面提示词：no text, no pseudo-Chinese, no horror clouds, no lightning strike, no extra limbs, no malformed paws, no duplicated squirrel, no changed character face, no random decorative clutter.
 - 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
-- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-08-clean.png`
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-03-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：样张通过；安全通过；彩虹低饱和；角色锁定通过；文字区通过；未见模型文字。
-- 单页状态：文本通过；关键样张已生成；排版图未生成
+- 单页 QA：通过；安全通过；云层变化、仰视和角色锁定通过；云层偏重但未恐怖化；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 4 页
 
@@ -284,11 +284,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor close-up page, no text, C01 little squirrel small paw gently reaching out to catch raindrops, a few raindrops on green leaves, small edge of green scarf visible, soft blurred forest path colors in background, gentle discovery mood, natural blank upper right area for later Chinese text, preschool-safe.
 - 负面提示词：no text, no pseudo-Chinese, no injury, no scary rain, no malformed paw, no extra fingers, no fused fingers, no impossible water, no clutter, no plastic skin.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-04-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：通过；安全通过；雨滴动作通过；角色锁定通过；道具状态通过；文字区通过；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 5 页
 
@@ -318,11 +318,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor page, no text, C01 little squirrel fixed design standing beside the same tree hollow at the left big tree, light rain, distant gentle thunder mood without scary lightning, squirrel pauses calmly with small green scarf close to body, safe tree hollow anchor, soft gray-blue sky, blank upper left area for later Chinese text.
 - 负面提示词：no text, no pseudo-Chinese, no horror, no frightening lightning, no crying panic, no coercion, no extra limbs, no malformed paws, no duplicated squirrel, no changed scarf, no dark scary forest.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-05-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：通过；安全通过；树洞安全锚点通过；角色锁定通过；雷声未恐怖化；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 6 页
 
@@ -352,11 +352,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor page, no text, reverse angle with same tree hollow edge as spatial anchor, C01 little squirrel looking out calmly from beside the hollow, rain becomes lighter, small green scarf gently lifting in the wind again, wet forest path from left to right, soft brighter gray-blue sky, blank upper right area for later Chinese text.
 - 负面提示词：no text, no pseudo-Chinese, no scary scene, no extra limbs, no malformed paws, no duplicated squirrel, no changed tree hollow, no inconsistent path direction, no clutter.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-06-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：通过；安全通过；雨变小、围巾重新飘起和树洞锚点通过；角色锁定通过；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 7 页
 
@@ -386,11 +386,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor page, no text, C01 little squirrel fixed design standing on wet forest path and looking up, clouds opening gently with a small warm light from upper right, left tree edge remains as spatial anchor, small green scarf lifting softly, calm expectant expression, blank upper left cloud area for later Chinese text.
 - 负面提示词：no text, no pseudo-Chinese, no divine beams, no scary sky, no extra limbs, no malformed paws, no duplicated squirrel, no overbright glow, no random sparkles.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-07-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：通过；安全通过；云开亮光通过；未提前出现完整彩虹；角色锁定通过；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ### 第 8 页
 
@@ -420,11 +420,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor picturebook page, no text, C01 little squirrel fixed warm chestnut body cream cheeks dark tail tip small green scarf, standing on open wet grassy slope after rain, looking up at a gentle low-saturation rainbow in the upper right sky, soft warm light, scarf lightly moving in the wind, peaceful satisfying ending, blank upper right sky area for later Chinese text.
 - 负面提示词：no text, no pseudo-Chinese, no over-saturated rainbow, no random decorations, no extra limbs, no malformed paws, no duplicated squirrel, no changed character design, no plastic skin.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-08-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：通过；安全通过；彩虹低饱和；角色锁定通过；文字区通过；未见模型文字。
+- 单页状态：文本通过；无字图已生成；排版图未生成
 
 ## 9. 全书质量审计
 
@@ -451,18 +451,18 @@
 
 ### 9.3 AI 瑕疵审计
 
-- 多指、少指、粘连手、反向手掌、多肢、缺肢：关键样张联系表初检未见 P0；第 4 页小爪需终稿前继续放大复核。
-- 眼睛、耳朵、牙齿、头发和衣领异常：关键样张初检通过；角色耳朵和绿围巾保持一致。
-- 人物漂浮、脚不着地、重心不稳、物体未被真实握住：关键样张初检通过。
-- 重复人物、无故换装、角色变脸、道具复制或消失：关键样张初检通过；未出现额外主角。
-- 透视、遮挡、阴影、门窗和家具结构异常：封面、第 5 页树洞、第 8 页草坡初检通过。
-- 乱码、伪中文、假字母和模型生成文字：关键样张初检通过，故事图未见文字；联系表标签为 QA 辅助文字，不属于故事图。
-- 同款微笑、塑料皮肤、过量纹理、随机装饰和模板化构图：关键样张初检通过，整体水彩纸感一致。
+- 多指、少指、粘连手、反向手掌、多肢、缺肢：全书联系表初检未见 P0；第 4 页小爪终稿前可继续放大复核。
+- 眼睛、耳朵、牙齿、头发和衣领异常：全书初检通过；角色耳朵、尾巴和绿围巾保持可识别。
+- 人物漂浮、脚不着地、重心不稳、物体未被真实握住：全书初检通过。
+- 重复人物、无故换装、角色变脸、道具复制或消失：全书初检通过；未出现额外主角。
+- 透视、遮挡、阴影、门窗和家具结构异常：全书初检通过；树洞和小路方向保持可读。
+- 乱码、伪中文、假字母和模型生成文字：全书初检通过，故事图未见文字；联系表标签为 QA 辅助文字，不属于故事图。
+- 同款微笑、塑料皮肤、过量纹理、随机装饰和模板化构图：全书初检通过，整体水彩纸感一致。
 - P0 问题及重做页码：无。
-- P1 问题及修正页码：无；第 5 页云层偏灰但未达恐怖化。
-- P2 已记录差异：样张角色耳朵细节略有页间差异，可在终稿批量生成时继续收紧。
+- P1 问题及修正页码：无。
+- P2 已记录差异：第 3 页云层偏重但未恐怖化；第 5-7 页都使用树洞附近空间，因叙事停顿与恢复需要可接受。
 - 整本联系表检查结果：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/storyboard-contact-sheet.png` 初检通过。
-- 最终可交付结论：角色参考图、封面样张、第 4/5/8 页关键无字样张可进入用户确认；不可宣称全书图片完成。
+- 最终可交付结论：无字封面和 8 页无字内页已生成并通过初检，可进入文字排版与导出阶段。
 
 ## 10. 给家长的文字
 
@@ -494,7 +494,7 @@
 - 连续性矩阵路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/continuity-matrix.md`
 - 整本缩略联系表路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/storyboard-contact-sheet.png`
 - 无字封面图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/cover-clean.png`
-- 无字内页图片路径：已生成第 4/5/8 页关键样张：`artwork/clean/page-04-clean.png`、`artwork/clean/page-05-clean.png`、`artwork/clean/page-08-clean.png`；其余内页未生成
+- 无字内页图片路径：`artwork/clean/page-01-clean.png`、`artwork/clean/page-02-clean.png`、`artwork/clean/page-03-clean.png`、`artwork/clean/page-04-clean.png`、`artwork/clean/page-05-clean.png`、`artwork/clean/page-06-clean.png`、`artwork/clean/page-07-clean.png`、`artwork/clean/page-08-clean.png`
 - 排版完成封面路径：未生成
 - 排版完成内页路径：未生成
 - 可编辑排版源文件路径：未生成
