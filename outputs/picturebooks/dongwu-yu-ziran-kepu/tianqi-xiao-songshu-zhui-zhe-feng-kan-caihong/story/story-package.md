@@ -2,11 +2,11 @@
 
 ## 1. 交付状态
 
-- 当前状态：故事草案 / 视觉设定
-- 实际图片生成：否
-- 生成方式：人工文本设计，后续可 AI 辅助出无字插画
-- 本次未完成项：角色参考图、环境参考图、无字封面、无字内页、后期排版、PDF/PPT 导出
-- 需要用户确认项：是否进入角色参考图与关键页样张阶段
+- 当前状态：关键样张确认
+- 实际图片生成：是，已生成角色参考图、无字封面样张、第 4/5/8 页无字样张
+- 生成方式：人工文本设计 + AI 辅助无字插画样张，后续文字仍由可编辑排版层处理
+- 本次未完成项：环境参考图、其余无字内页、后期文字排版、PDF/PPT 导出
+- 需要用户确认项：是否进入其余内页批量出图与排版阶段
 
 ## 2. 基本信息
 
@@ -14,8 +14,8 @@
 - 书名：小松鼠追着风看彩虹
 - 主题：天气
 - 图/文：小葫芦
-- 主要适合年龄：3-4 岁
-- 可延伸年龄：2-5 岁
+- 主要适合年龄：2-5 岁
+- 可延伸年龄：亲子共读时可按孩子语言发展水平增减讨论问题
 - 核心主题：孩子通过看见、听见、感觉到的线索认识天气变化。
 - 孩子的生活入口：风吹叶子、雨点落下、远处雷声、雨后彩虹。
 - 目标情绪变化：从好奇，到短暂停住，再到安心发现彩虹。
@@ -55,7 +55,7 @@
 
 - 角色 ID：C01-小松鼠
 - 名称与身份：幼儿感小松鼠
-- 年龄感 / 物种：约 3-4 岁儿童气质的小松鼠
+- 年龄感 / 物种：2-5 岁幼儿友好气质的小松鼠
 - 身高与头身比例：小体型，约 2.5 头身，大尾巴约为身体高度的 1.2 倍
 - 脸型与核心五官：圆脸，黑亮小眼，短鼻，小嘴，奶油色脸颊
 - 发型与发色：无发型，暖栗棕短毛，深棕尾尖
@@ -67,7 +67,7 @@
 - 常见表情范围：平静、好奇、专注、短暂停住、放松、开心
 - 禁改项：物种、尾巴形状、围巾颜色、身体主色、脸颊颜色
 - 可变项：动作、朝向、景别、雨湿程度、围巾飘动方向
-- 角色参考图路径或状态：未生成
+- 角色参考图路径或状态：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/character-reference-sheet.png`
 
 ### 5.2 演员表
 
@@ -137,8 +137,8 @@
 
 ## 7. 封面图片
 
-- 封面状态：未生成
-- 无字封面图片文件路径：未生成
+- 封面状态：无字样张已生成，排版封面未生成
+- 无字封面图片文件路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/cover-clean.png`
 - 排版完成封面图片路径：未生成
 - 图片比例与像素尺寸：固定 `3:4`，`1536x2048`
 - 封面中心意思：小松鼠站在雨后草地上，围巾被风轻轻吹起，远处有柔和低饱和彩虹。
@@ -149,8 +149,8 @@
 - 标题安全区：距离边缘至少 6%，不遮挡小松鼠脸、围巾和彩虹主体。
 - 无字封面图像提示词：3:4 vertical watercolor picturebook cover, no text, preschool-safe, C01 little squirrel with warm chestnut brown body, cream cheeks and belly, dark brown tail tip, small green scarf, standing on wet grass after rain, gentle low-saturation rainbow in the upper right sky, soft forest edge and big tree on the left, calm happy expression, natural blank sky area for later Chinese title, soft paper texture, consistent character design.
 - 封面负面提示词：no text, no pseudo-Chinese, no letters, no horror, no violence, no dangerous behavior, no extra limbs, no malformed paws, no duplicated character, no random decorative clutter, no plastic skin, no over-saturated rainbow.
-- 使用的角色/环境参考图、模型、版本、种子或引用信息：未生成，未使用
-- 封面 QA 结果：需后续生成后检查；当前文本方案通过
+- 使用的角色/环境参考图、模型、版本、种子或引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 封面 QA 结果：样张通过；无文字、无恐怖天气、角色绿围巾和松鼠尾可辨；排版图待生成
 
 ## 8. 内页图片与文字
 
@@ -182,11 +182,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor picturebook page, no text, C01 little squirrel warm chestnut brown body cream cheeks and belly dark brown tail tip small green scarf, standing under a big tree at the left side of a forest path, leaves and grass tips gently moving to the right, curious calm expression, tree hollow visible at tree root, natural blank sky area upper left for later Chinese text, soft paper grain, preschool-safe.
 - 负面提示词：no text, no pseudo-Chinese characters, no scary mood, no violence, no extra limbs, no malformed paws, no duplicated squirrel, no outfit change, no floating objects, no random decorative clutter, no plastic skin.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-04-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：样张通过；安全通过；雨滴动作通过；角色锁定通过；道具状态通过；文字区通过；未见模型文字。
+- 单页状态：文本通过；关键样张已生成；排版图未生成
 
 ### 第 2 页
 
@@ -216,11 +216,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor picturebook page, no text, C01 little squirrel with fixed warm chestnut body cream cheeks dark tail tip and small green scarf, walking along a gentle forest path from left to right, leaves and grass bending in the same wind direction, big tree remains in far left background, focused curious expression, clean composition with blank upper right area for later Chinese text.
 - 负面提示词：no text, no pseudo-Chinese, no scary storm, no extra limbs, no malformed paws, no duplicated animal, no changed scarf color, no floating leaves clutter, no plastic texture.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-05-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：样张通过；安全通过；树洞锚点通过；角色锁定通过；雷声未恐怖化；未见模型文字。
+- 单页状态：文本通过；关键样张已生成；排版图未生成
 
 ### 第 3 页
 
@@ -250,11 +250,11 @@
 - 图片比例与像素尺寸：`3:4`，`1536x2048`
 - 无字插画图像提示词：3:4 vertical watercolor page, no text, C01 little squirrel fixed design, standing on the same forest path and looking up, soft gray-blue clouds slowly moving closer, big tree crown as spatial anchor on the left, gentle curious puzzled expression, no frightening sky, natural blank upper left area for later Chinese text, soft watercolor paper texture.
 - 负面提示词：no text, no pseudo-Chinese, no horror clouds, no lightning strike, no extra limbs, no malformed paws, no duplicated squirrel, no changed character face, no random decorative clutter.
-- 使用的参考图、模型、版本、种子或角色引用信息：未生成
-- 无字图片路径：未生成
+- 使用的参考图、模型、版本、种子或角色引用信息：参考 `bible/character-reference-sheet.png`；内置 image_gen；无固定种子记录
+- 无字图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/page-08-clean.png`
 - 排版完成图片路径：未生成
-- 单页 QA：安全通过；动作通过；角色锁定通过；道具状态通过；空间承接通过；文字区通过；乱码检查待出图。
-- 单页状态：文本通过；图片未生成
+- 单页 QA：样张通过；安全通过；彩虹低饱和；角色锁定通过；文字区通过；未见模型文字。
+- 单页状态：文本通过；关键样张已生成；排版图未生成
 
 ### 第 4 页
 
@@ -431,7 +431,7 @@
 ### 9.1 故事与文字 QA
 
 - 单一核心主题：通过。
-- 年龄适配和字数：通过，正文 4-8 个汉字，适合主 3-4 岁并可延伸 2-5 岁。
+- 年龄适配和字数：通过，正文 4-8 个汉字，适合 2-5 岁亲子共读。
 - 儿童视角：通过，所有天气线索来自可见、可听、可感觉的经验。
 - 情绪接纳与选择权：通过，第 5 页允许停一停。
 - 是否存在催促、比较、羞辱、条件式奖励或说教：无。
@@ -451,18 +451,18 @@
 
 ### 9.3 AI 瑕疵审计
 
-- 多指、少指、粘连手、反向手掌、多肢、缺肢：图片未生成，待后续逐图审计。
-- 眼睛、耳朵、牙齿、头发和衣领异常：图片未生成，待后续逐图审计。
-- 人物漂浮、脚不着地、重心不稳、物体未被真实握住：图片未生成，待后续逐图审计。
-- 重复人物、无故换装、角色变脸、道具复制或消失：图片未生成，待后续逐图审计。
-- 透视、遮挡、阴影、门窗和家具结构异常：图片未生成，待后续逐图审计。
-- 乱码、伪中文、假字母和模型生成文字：图片未生成；提示词已要求 no text。
-- 同款微笑、塑料皮肤、过量纹理、随机装饰和模板化构图：图片未生成；提示词已规避。
-- P0 问题及重做页码：无实际图片，未发现文本 P0。
-- P1 问题及修正页码：无实际图片，未发现文本 P1。
-- P2 已记录差异：无。
-- 整本联系表检查结果：文本通过。
-- 最终可交付结论：文本故事包可进入角色参考图与关键页样张阶段；不可宣称图片完成。
+- 多指、少指、粘连手、反向手掌、多肢、缺肢：关键样张联系表初检未见 P0；第 4 页小爪需终稿前继续放大复核。
+- 眼睛、耳朵、牙齿、头发和衣领异常：关键样张初检通过；角色耳朵和绿围巾保持一致。
+- 人物漂浮、脚不着地、重心不稳、物体未被真实握住：关键样张初检通过。
+- 重复人物、无故换装、角色变脸、道具复制或消失：关键样张初检通过；未出现额外主角。
+- 透视、遮挡、阴影、门窗和家具结构异常：封面、第 5 页树洞、第 8 页草坡初检通过。
+- 乱码、伪中文、假字母和模型生成文字：关键样张初检通过，故事图未见文字；联系表标签为 QA 辅助文字，不属于故事图。
+- 同款微笑、塑料皮肤、过量纹理、随机装饰和模板化构图：关键样张初检通过，整体水彩纸感一致。
+- P0 问题及重做页码：无。
+- P1 问题及修正页码：无；第 5 页云层偏灰但未达恐怖化。
+- P2 已记录差异：样张角色耳朵细节略有页间差异，可在终稿批量生成时继续收紧。
+- 整本联系表检查结果：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/storyboard-contact-sheet.png` 初检通过。
+- 最终可交付结论：角色参考图、封面样张、第 4/5/8 页关键无字样张可进入用户确认；不可宣称全书图片完成。
 
 ## 10. 给家长的文字
 
@@ -481,7 +481,7 @@
   - “不要怕。”
   - “你要勇敢一点。”
   - “这有什么好怕的。”
-- 适合幼儿年龄：主要 3-4 岁，可延伸 2-5 岁。
+- 适合幼儿年龄：2-5 岁。
 
 ## 11. 交付准备
 
@@ -492,9 +492,9 @@
 - 环境地图路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/environment-map.md`
 - 色板与风格圣经路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/color-and-style-bible.md`
 - 连续性矩阵路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/continuity-matrix.md`
-- 整本缩略联系表路径：未生成
-- 无字封面图片路径：未生成
-- 无字内页图片路径：未生成
+- 整本缩略联系表路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/bible/storyboard-contact-sheet.png`
+- 无字封面图片路径：`outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong/artwork/clean/cover-clean.png`
+- 无字内页图片路径：已生成第 4/5/8 页关键样张：`artwork/clean/page-04-clean.png`、`artwork/clean/page-05-clean.png`、`artwork/clean/page-08-clean.png`；其余内页未生成
 - 排版完成封面路径：未生成
 - 排版完成内页路径：未生成
 - 可编辑排版源文件路径：未生成
