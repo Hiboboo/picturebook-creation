@@ -1,0 +1,97 @@
+{
+  "title": "小夜灯，等一等",
+  "canvas": {
+    "width": 1536,
+    "height": 2048,
+    "aspect_ratio": "3:4"
+  },
+  "font": {
+    "family": "Microsoft YaHei",
+    "body_size_px": 58,
+    "body_small_size_px": 54,
+    "cover_title_size_px": 116,
+    "cover_credit_size_px": 42,
+    "fill": "#2A3645",
+    "stroke": "#FFF8E2"
+  },
+  "cover": {
+    "source": "artwork/clean/cover-clean.png",
+    "output": "artwork/composited/cover-final.png",
+    "title_text": "小夜灯，\n等一等",
+    "credit_text": "图/文：小葫芦",
+    "title_box": { "x": 105, "y": 90, "width": 760, "height": 310, "align": "left" },
+    "credit_box": { "x": 112, "y": 405, "width": 560, "height": 80, "align": "left" }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "source": "artwork/clean/page-01-clean.png",
+      "output": "artwork/composited/page-01-final.png",
+      "text": "小葫芦穿好星星睡衣。",
+      "box": { "x": 110, "y": 105, "width": 880, "height": 220, "align": "left" }
+    },
+    {
+      "page": 2,
+      "source": "artwork/clean/page-02-clean.png",
+      "output": "artwork/composited/page-02-final.png",
+      "text": "大灯关了，\n小夜灯亮着。",
+      "box": { "x": 710, "y": 105, "width": 700, "height": 260, "align": "right" }
+    },
+    {
+      "page": 3,
+      "source": "artwork/clean/page-03-clean.png",
+      "output": "artwork/composited/page-03-final.png",
+      "text": "墙上，有一条长长的影子。",
+      "box": { "x": 105, "y": 105, "width": 920, "height": 220, "align": "left" }
+    },
+    {
+      "page": 4,
+      "source": "artwork/clean/page-04-clean.png",
+      "output": "artwork/composited/page-04-final.png",
+      "text": "妈妈说：“我们看看。”",
+      "box": { "x": 750, "y": 105, "width": 690, "height": 220, "align": "right" }
+    },
+    {
+      "page": 5,
+      "source": "artwork/clean/page-05-clean.png",
+      "output": "artwork/composited/page-05-final.png",
+      "text": "原来，是小外套的影子。",
+      "box": { "x": 105, "y": 105, "width": 900, "height": 220, "align": "left" }
+    },
+    {
+      "page": 6,
+      "source": "artwork/clean/page-06-clean.png",
+      "output": "artwork/composited/page-06-final.png",
+      "text": "小葫芦把小兔抱近一点。",
+      "box": { "x": 650, "y": 105, "width": 780, "height": 230, "align": "right" }
+    },
+    {
+      "page": 7,
+      "source": "artwork/clean/page-07-clean.png",
+      "output": "artwork/composited/page-07-final.png",
+      "text": "小葫芦说：“门留一点点。”",
+      "box": { "x": 105, "y": 105, "width": 910, "height": 230, "align": "left" }
+    },
+    {
+      "page": 8,
+      "source": "artwork/clean/page-08-clean.png",
+      "output": "artwork/composited/page-08-final.png",
+      "text": "小葫芦轻轻叫：“妈妈？”\n“我在呢。”",
+      "box": { "x": 120, "y": 88, "width": 1296, "height": 260, "align": "center" }
+    },
+    {
+      "page": 9,
+      "source": "artwork/clean/page-09-clean.png",
+      "output": "artwork/composited/page-09-final.png",
+      "text": "小葫芦说：“等一等。”\n他数了三颗星星。",
+      "box": { "x": 700, "y": 100, "width": 720, "height": 290, "align": "right" }
+    },
+    {
+      "page": 10,
+      "source": "artwork/clean/page-10-clean.png",
+      "output": "artwork/composited/page-10-final.png",
+      "text": "小葫芦说：“我先躺一会儿。”\n妈妈说：“好，我在这里。”",
+      "box": { "x": 100, "y": 100, "width": 970, "height": 310, "align": "left" }
+    }
+  ]
+}

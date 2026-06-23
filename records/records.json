@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-06-21T11:33:31+00:00",
+  "exported_at": "2026-06-23T04:44:20+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -28,6 +28,19 @@
       "output_dir": "outputs/picturebooks/qinqing-yu-ai-de-biaoda/mama-yizhi-zai",
       "created_at": "2026-06-21T07:26:12+00:00",
       "updated_at": "2026-06-21T11:33:31+00:00"
+    },
+    {
+      "id": "90867142b50f2840",
+      "series": "生活习惯养成系列",
+      "theme": "睡前安抚、怕黑、独睡",
+      "title": "小夜灯，等一等",
+      "status": "completed",
+      "summary": "小葫芦在睡前把小外套影子看清，自己提出门留一点点，确认妈妈在后数三颗星星，慢慢练习先躺一会儿；全书无字图和带文字内页已生成。",
+      "characters": "C01-小葫芦; A01-妈妈; P01-小兔抱偶",
+      "style": "温柔水彩与彩铅质感，暖琥珀夜灯主导，门缝光辅助，3:4竖版，适中偏简洁；已完成中文后期文字层排版",
+      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/xiaoyedeng-deng-yideng",
+      "created_at": "2026-06-23T01:30:29+00:00",
+      "updated_at": "2026-06-23T04:43:36+00:00"
     }
   ]
 }
