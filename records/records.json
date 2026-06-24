@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-06-23T04:44:20+00:00",
+  "exported_at": "2026-06-24T07:23:57+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -41,6 +41,19 @@
       "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/xiaoyedeng-deng-yideng",
       "created_at": "2026-06-23T01:30:29+00:00",
       "updated_at": "2026-06-23T04:43:36+00:00"
+    },
+    {
+      "id": "c772ee94a59dea4b",
+      "series": "情绪管理系列",
+      "theme": "害怕、怕黑",
+      "title": "黑黑不急，我慢慢看",
+      "status": "draft",
+      "summary": "小米在傍晚想去短走廊拿小蓝杯，先说出自己有点怕，再在妈妈陪伴下牵一根手指、照一照、认出影子和声音，留下小星线索；清爽傍晚光线版无字封面和 10 张无字内页已生成。",
+      "characters": "C01-小米; A01-妈妈; D01-小蓝杯; D03-小月亮灯; D04-小星贴纸",
+      "style": "清爽真实傍晚室内光线，奶油白/浅米白墙面，局部台灯暖光，走廊柔和蓝紫冷光可读，小月亮灯奶白柔光，明亮暖黄上衣与清浅蓝背带裤，3:4竖版",
+      "output_dir": "outputs/picturebooks/qingxu-guanli/heihei-bu-ji-wo-manman-kan",
+      "created_at": "2026-06-24T02:04:42+00:00",
+      "updated_at": "2026-06-24T07:22:11+00:00"
     }
   ]
 }
