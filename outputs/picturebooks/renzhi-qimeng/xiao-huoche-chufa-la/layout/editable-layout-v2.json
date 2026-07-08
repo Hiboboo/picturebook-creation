@@ -1,0 +1,162 @@
+{
+  "version": "v2",
+  "canvas": {
+    "width": 1086,
+    "height": 1448,
+    "ratio": "3:4"
+  },
+  "font_files": {
+    "regular": "C:/Windows/Fonts/msyh.ttc",
+    "bold": "C:/Windows/Fonts/msyhbd.ttc"
+  },
+  "text_layer_policy": "Chinese text added after clean artwork generation; clean images contain no generated text.",
+  "pages": [
+    {
+      "id": "cover",
+      "clean": "artwork/clean/v2/cover-clean.png",
+      "final": "artwork/composited/v2/cover-final.png",
+      "title_lines": [
+        "小火车",
+        "出发啦"
+      ],
+      "signature": "图/文：小葫芦",
+      "position_px": {
+        "title_y": 64,
+        "signature_y": 326
+      },
+      "font": "Microsoft YaHei Bold / Microsoft YaHei",
+      "title_font_size_px": 118,
+      "signature_font_size_px": 34,
+      "fill": "#28363a",
+      "stroke": "#fffffa"
+    },
+    {
+      "id": "page-01",
+      "clean": "artwork/clean/v2/page-01-clean.png",
+      "final": "artwork/composited/v2/page-01-final.png",
+      "text": "停一停，\n听一听。",
+      "position_px": {
+        "x": 80,
+        "y": 86
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-02",
+      "clean": "artwork/clean/v2/page-02-clean.png",
+      "final": "artwork/composited/v2/page-02-final.png",
+      "text": "呜呜，\n红车头来了。",
+      "position_px": {
+        "x": 650,
+        "y": 84
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-03",
+      "clean": "artwork/clean/v2/page-03-clean.png",
+      "final": "artwork/composited/v2/page-03-final.png",
+      "text": "一节，两节，\n车厢跟上啦。",
+      "position_px": {
+        "x": 70,
+        "y": 86
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-04",
+      "clean": "artwork/clean/v2/page-04-clean.png",
+      "final": "artwork/composited/v2/page-04-final.png",
+      "text": "小车轮，\n咔哒咔哒。",
+      "position_px": {
+        "x": 62,
+        "y": 1088
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-05",
+      "clean": "artwork/clean/v2/page-05-clean.png",
+      "final": "artwork/composited/v2/page-05-final.png",
+      "text": "门开啦，\n先看看里面。",
+      "position_px": {
+        "x": 620,
+        "y": 80
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-06",
+      "clean": "artwork/clean/v2/page-06-clean.png",
+      "final": "artwork/composited/v2/page-06-final.png",
+      "text": "坐好啦，\n扶稳稳。",
+      "position_px": {
+        "x": 70,
+        "y": 82
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-07",
+      "clean": "artwork/clean/v2/page-07-clean.png",
+      "final": "artwork/composited/v2/page-07-final.png",
+      "text": "弯弯轨道，\n小火车慢慢走。",
+      "position_px": {
+        "x": 70,
+        "y": 82
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    },
+    {
+      "id": "page-08",
+      "clean": "artwork/clean/v2/page-08-clean.png",
+      "final": "artwork/composited/v2/page-08-final.png",
+      "text": "小火车走远啦，\n小葫芦还在看。",
+      "position_px": {
+        "x": 70,
+        "y": 82
+      },
+      "font": "Microsoft YaHei Bold",
+      "font_size_px": 56,
+      "fill": "#2f3f43",
+      "stroke": "#fffffa",
+      "stroke_width_px": 3,
+      "line_spacing_px": 12
+    }
+  ]
+}

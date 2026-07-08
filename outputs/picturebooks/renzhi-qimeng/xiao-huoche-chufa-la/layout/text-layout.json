@@ -1,0 +1,25 @@
+{
+  "book": "小火车出发啦",
+  "canvas": {
+    "ratio": "3:4",
+    "width": 1086,
+    "height": 1448,
+    "safeMarginPercent": 6
+  },
+  "fontPlan": {
+    "title": "clear rounded Chinese display font, editable text layer",
+    "body": "clear rounded Chinese text font, editable text layer",
+    "credit": "simple dark gray small text"
+  },
+  "pages": [
+    { "page": "cover", "text": "小火车出发啦", "position": "top", "maxLines": 2, "status": "clean cover generated" },
+    { "page": 1, "text": "小火车，要来啦。", "position": "upper-left sky", "maxLines": 1, "status": "image not generated" },
+    { "page": 2, "text": "红车头，呜呜。", "position": "upper-right canopy area", "maxLines": 1, "status": "image not generated" },
+    { "page": 3, "text": "一节，两节，跟上啦。", "position": "upper-left tree and sky area", "maxLines": 1, "status": "image not generated" },
+    { "page": 4, "text": "小车轮，咔哒咔哒。", "position": "upper light platform floor", "maxLines": 1, "status": "image not generated" },
+    { "page": 5, "text": "先看看，再上车。", "position": "upper-right carriage exterior", "maxLines": 1, "status": "sample generated: artwork/clean/page-05-clean-v2.png" },
+    { "page": 6, "text": "坐好啦，扶稳稳。", "position": "upper-left window sky", "maxLines": 1, "status": "sample generated: artwork/clean/page-06-clean.png" },
+    { "page": 7, "text": "轨道弯弯，火车慢慢。", "position": "upper sky", "maxLines": 1, "status": "image not generated" },
+    { "page": 8, "text": "到站啦，再见小火车。", "position": "upper-left sky", "maxLines": 1, "status": "sample generated with P1 note: artwork/clean/page-08-clean-v2.png" }
+  ]
+}

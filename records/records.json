@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-06-24T07:23:57+00:00",
+  "exported_at": "2026-07-08T07:34:32+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -54,6 +54,45 @@
       "output_dir": "outputs/picturebooks/qingxu-guanli/heihei-bu-ji-wo-manman-kan",
       "created_at": "2026-06-24T02:04:42+00:00",
       "updated_at": "2026-06-24T07:22:11+00:00"
+    },
+    {
+      "id": "57f10fb7cb25251d",
+      "series": "生活习惯养成系列",
+      "theme": "坐马桶、不尿裤子",
+      "title": "尿尿来啦",
+      "status": "archived",
+      "summary": "已根据反馈改名为《小肚肚叮一下》，旧标题仅保留为改名前记录。",
+      "characters": "C01-小葫芦; A01-妈妈; D01-小马桶; P01-小兔抱偶",
+      "style": "温柔水彩和彩铅线条，明亮浴室与客厅，3:4竖版，适中偏简洁",
+      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/xiaodudu-ding-yixia",
+      "created_at": "2026-06-29T03:07:19+00:00",
+      "updated_at": "2026-06-29T06:38:42+00:00"
+    },
+    {
+      "id": "7c353e4e9c34f5e3",
+      "series": "生活习惯养成系列",
+      "theme": "坐马桶、不尿裤子",
+      "title": "小肚肚叮一下",
+      "status": "draft",
+      "summary": "小葫芦在玩积木时听见小肚肚叮一下，虽然不想停下玩，仍抱着小兔慢慢去小马桶坐一坐，学习听见身体信号。",
+      "characters": "C01-小葫芦; A01-妈妈; D01-小马桶; P01-小兔抱偶",
+      "style": "温柔水彩和彩铅线条，明亮浴室与客厅，3:4竖版，适中偏简洁；以‘叮一下’作为身体信号重复钩子",
+      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/xiaodudu-ding-yixia",
+      "created_at": "2026-06-29T06:38:42+00:00",
+      "updated_at": "2026-06-29T06:38:42+00:00"
+    },
+    {
+      "id": "c28a0594a796d63c",
+      "series": "认知启蒙系列",
+      "theme": "交通工具：火车",
+      "title": "小火车出发啦",
+      "status": "completed",
+      "summary": "2-3岁低幼认知绘本，小葫芦按自己的节奏认识公园小火车，已完成v2无字图、排版图、PDF和PPTX。",
+      "characters": "",
+      "style": "",
+      "output_dir": "outputs/picturebooks/renzhi-qimeng/xiao-huoche-chufa-la",
+      "created_at": "2026-07-08T03:49:56+00:00",
+      "updated_at": "2026-07-08T07:34:07+00:00"
     }
   ]
 }
