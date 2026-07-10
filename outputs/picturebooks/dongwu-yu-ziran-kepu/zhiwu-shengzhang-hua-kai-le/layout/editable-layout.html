@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>《花开了》可编辑版式</title>
+  <style>
+    :root { color-scheme: light; font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px; background: #e8eee9; color: #344039; }
+    header { max-width: 1100px; margin: 0 auto 28px; }
+    header p { line-height: 1.7; color: #5f6e65; }
+    .book { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 28px; max-width: 1200px; margin: 0 auto; }
+    figure { margin: 0; }
+    figcaption { margin-top: 10px; text-align: center; font-size: 14px; }
+    .page { position: relative; aspect-ratio: 3 / 4; overflow: hidden; background: #fff; box-shadow: 0 14px 36px rgba(52,64,57,.16); }
+    .page img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .text { position: absolute; top: 7.1%; max-width: 57%; font-size: clamp(22px, 2.25vw, 34px); line-height: 1.45; font-weight: 500; color: #303d36; text-shadow: 0 0 2px #f6f3e8, 0 0 5px #f6f3e8; white-space: pre-line; outline: none; }
+    .text.left { left: 7.8%; }
+    .text.right { right: 7.8%; }
+    .text.light { color: #f7f2e2; text-shadow: 0 0 2px #493b30, 0 0 5px #493b30; }
+    .title { top: 6.3%; left: 7.8%; font-size: clamp(52px, 6vw, 82px); line-height: 1.1; font-weight: 500; }
+    .credit { top: auto; bottom: 6%; left: 7.8%; font-size: clamp(17px, 1.7vw, 24px); }
+    [contenteditable="true"]:focus { background: rgba(255,255,255,.68); box-shadow: 0 0 0 2px rgba(71,105,84,.45); }
+    @media print {
+      body { padding: 0; background: #fff; }
+      header { display: none; }
+      .book { display: block; max-width: none; }
+      figure { break-after: page; }
+      .page { width: 153mm; height: 204mm; box-shadow: none; }
+      figcaption { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>《花开了》可编辑版式</h1>
+    <p>点击任意文字可直接修改。本文件引用无字插画，文字保持独立层；浏览器打印时每页单独分页。</p>
+  </header>
+  <main class="book">
+    <figure><div class="page"><img src="../artwork/clean/cover-clean.png" alt="无字封面"><div class="text title" contenteditable="true">花开了</div><div class="text credit" contenteditable="true">图/文：小葫芦</div></div><figcaption>封面</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-01-clean.png" alt="第1页"><div class="text left" contenteditable="true">泥土里，<br>小种子睡着了。</div></div><figcaption>第 1 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-02-clean.png" alt="第2页"><div class="text right" contenteditable="true">滴答，滴答。<br>雨点来敲门。</div></div><figcaption>第 2 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-03-clean.png" alt="第3页"><div class="text left light" contenteditable="true">喝饱水，<br>小种子裂开啦。</div></div><figcaption>第 3 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-04-clean.png" alt="第4页"><div class="text right light" contenteditable="true">小白根，<br>先往下伸一伸。</div></div><figcaption>第 4 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-05-clean.png" alt="第5页"><div class="text left" contenteditable="true">小嫩芽，<br>再往上顶一顶。</div></div><figcaption>第 5 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-06-clean.png" alt="第6页"><div class="text right" contenteditable="true">太阳照一照，<br>两片小叶张开了。</div></div><figcaption>第 6 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-07-clean.png" alt="第7页"><div class="text left" contenteditable="true">雨点来，太阳照。<br>真叶一片片长。</div></div><figcaption>第 7 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-08-clean.png" alt="第8页"><div class="text right" contenteditable="true">茎长高了，<br>小花苞也来了。</div></div><figcaption>第 8 页</figcaption></figure>
+    <figure><div class="page"><img src="../artwork/clean/page-09-clean.png" alt="第9页"><div class="text left" contenteditable="true">一片，两片……<br>花开了！</div></div><figcaption>第 9 页</figcaption></figure>
+  </main>
+</body>
+</html>
