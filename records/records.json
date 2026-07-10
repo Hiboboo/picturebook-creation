@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-07-08T07:34:32+00:00",
+  "exported_at": "2026-07-10T06:18:00+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -93,6 +93,19 @@
       "output_dir": "outputs/picturebooks/renzhi-qimeng/xiao-huoche-chufa-la",
       "created_at": "2026-07-08T03:49:56+00:00",
       "updated_at": "2026-07-08T07:34:07+00:00"
+    },
+    {
+      "id": "fca4304857f5a95a",
+      "series": "动物与自然科普系列",
+      "theme": "植物生长",
+      "title": "花开了",
+      "status": "draft",
+      "summary": "",
+      "characters": "",
+      "style": "",
+      "output_dir": "",
+      "created_at": "2026-07-10T06:17:59+00:00",
+      "updated_at": "2026-07-10T06:17:59+00:00"
     }
   ]
 }
