@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-实际图片尚未生成，未进行逐页瑕疵审计。
+已完成参考图、无字封面及第 3、5、9 页关键样张初检；其余页面尚未生成。
 
 ## P0 必须重做
 
@@ -27,5 +27,9 @@
 
 ## 逐图结果
 
-待参考图、封面和 9 页内页生成后填写。
-
+- `bible/character-reference-sheet.png`：通过；六阶段、无字、单主茎和单花盘清楚。
+- `bible/environment-reference.png`：通过；D01 左、D02 右、根向下、芽向上、无字。
+- `artwork/clean/cover-clean.png`：通过；单株、单花盘、标题区与地标清楚。
+- `artwork/clean/page-03-clean.png`：通过；种皮小裂口清楚，未提前出现根芽。
+- `artwork/clean/page-05-clean.png`：通过；单芽以自然芽钩出土，地标正确。
+- `artwork/clean/page-09-clean.png`：第一次生成出现不符合页表的地下根系展示，按 P1 定向重生成；第二版采用纯地上视图并通过。
