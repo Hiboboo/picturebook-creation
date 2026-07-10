@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-已完成参考图、无字封面及第 3、5、9 页关键样张初检；其余页面尚未生成。
+已完成参考图、无字封面和全部 9 页无字内页初检；排版与联系表复检尚未完成。
 
 ## P0 必须重做
 
@@ -33,3 +33,10 @@
 - `artwork/clean/page-03-clean.png`：通过；种皮小裂口清楚，未提前出现根芽。
 - `artwork/clean/page-05-clean.png`：通过；单芽以自然芽钩出土，地标正确。
 - `artwork/clean/page-09-clean.png`：第一次生成出现不符合页表的地下根系展示，按 P1 定向重生成；第二版采用纯地上视图并通过。
+- `artwork/clean/page-01-clean.png`：通过；单一种子、未萌发、地标方向正确。
+- `artwork/clean/page-02-clean.png`：通过；雨水与渗水路径清楚，种子尚未裂开。
+- `artwork/clean/page-04-clean.png`：第一次生成的胚根过长，按 P1 定向重生成；第二版根长约一粒种子且向下，通过。
+- `artwork/clean/page-06-clean.png`：通过；恰好两片光滑子叶，无真叶和花苞。
+- `artwork/clean/page-07-clean.png`：通过；子叶和真叶差异清楚，单一主茎。
+- `artwork/clean/page-08-clean.png`：第一次生成展示较多地下根系，按 P1 定向重生成；第二版采用纯地上视图和单一闭合花苞，通过。
+- 所有 clean 图片已标准化为 `1536×2048` RGB PNG。
