@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-07-08T07:34:32+00:00",
+  "exported_at": "2026-07-13T13:48:42+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -93,6 +93,19 @@
       "output_dir": "outputs/picturebooks/renzhi-qimeng/xiao-huoche-chufa-la",
       "created_at": "2026-07-08T03:49:56+00:00",
       "updated_at": "2026-07-08T07:34:07+00:00"
+    },
+    {
+      "id": "0af13cbb1e9bfe82",
+      "series": "安全教育系列",
+      "theme": "找不到妈妈怎么办",
+      "title": "找不到妈妈怎么办",
+      "status": "draft",
+      "summary": "用户已确认4张关键样图方向正确并锁定为全书视觉基准；已按出版级视觉精修 v2 补齐封面和第1-10页无字clean artwork。新增第1、2、3、5、7、8、9页，统一真实儿童图书馆、轻微生活痕迹、手绘水彩彩铅质感、人物自然表情和安全点视觉明确。全书内页联系表和fullbook-v2-review查看包已生成；排版图、PDF、PPT尚未生成。",
+      "characters": "C01-小米; A01-妈妈; A02-蓝马甲阿姨",
+      "style": "日本生活系儿童绘本感 + 国产安全教育内容；透明水彩和彩铅线条；出版级AI降噪；真实儿童图书馆生活痕迹；避免样板间、统一水彩滤镜、模板化表情、可读文字。",
+      "output_dir": "outputs/picturebooks/anquan-jiaoyu/zhaobudao-mama-zenmeban",
+      "created_at": "2026-07-10T14:00:33+00:00",
+      "updated_at": "2026-07-11T03:30:00+00:00"
     }
   ]
 }
