@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-07-13T14:49:37+00:00",
+  "exported_at": "2026-07-13T15:02:51+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -15,32 +15,6 @@
       "output_dir": "outputs/picturebooks/dongwu-yu-ziran-kepu/tianqi-xiao-songshu-zhui-zhe-feng-kan-caihong",
       "created_at": "2026-06-21T03:10:44+00:00",
       "updated_at": "2026-06-21T03:49:43+00:00"
-    },
-    {
-      "id": "f4b3a5094a680680",
-      "series": "亲情与爱的表达系列",
-      "theme": "妈妈的爱",
-      "title": "妈妈一直在",
-      "status": "draft",
-      "summary": "小米在客厅短暂看不见妈妈，通过声音、围裙、香味和妈妈的回应感到妈妈一直在。",
-      "characters": "C01-小米; A01-妈妈",
-      "style": "温暖水彩家庭感，第二版整体色调，绿植叶片轻微增绿；构图需幼儿视角、单核心动作、三角/视线连接、无大空墙，3:4竖版",
-      "output_dir": "outputs/picturebooks/qinqing-yu-ai-de-biaoda/mama-yizhi-zai",
-      "created_at": "2026-06-21T07:26:12+00:00",
-      "updated_at": "2026-06-21T11:33:31+00:00"
-    },
-    {
-      "id": "90867142b50f2840",
-      "series": "生活习惯养成系列",
-      "theme": "睡前安抚、怕黑、独睡",
-      "title": "小夜灯，等一等",
-      "status": "completed",
-      "summary": "小葫芦在睡前把小外套影子看清，自己提出门留一点点，确认妈妈在后数三颗星星，慢慢练习先躺一会儿；全书无字图和带文字内页已生成。",
-      "characters": "C01-小葫芦; A01-妈妈; P01-小兔抱偶",
-      "style": "温柔水彩与彩铅质感，暖琥珀夜灯主导，门缝光辅助，3:4竖版，适中偏简洁；已完成中文后期文字层排版",
-      "output_dir": "outputs/picturebooks/shenghuo-xiguan-yangcheng/xiaoyedeng-deng-yideng",
-      "created_at": "2026-06-23T01:30:29+00:00",
-      "updated_at": "2026-06-23T04:43:36+00:00"
     },
     {
       "id": "c772ee94a59dea4b",
@@ -93,19 +67,6 @@
       "output_dir": "outputs/picturebooks/renzhi-qimeng/xiao-huoche-chufa-la",
       "created_at": "2026-07-08T03:49:56+00:00",
       "updated_at": "2026-07-08T07:34:07+00:00"
-    },
-    {
-      "id": "fca4304857f5a95a",
-      "series": "动物与自然科普系列",
-      "theme": "植物生长",
-      "title": "花开了",
-      "status": "draft",
-      "summary": "",
-      "characters": "",
-      "style": "",
-      "output_dir": "",
-      "created_at": "2026-07-10T06:17:59+00:00",
-      "updated_at": "2026-07-10T06:17:59+00:00"
     },
     {
       "id": "0af13cbb1e9bfe82",
