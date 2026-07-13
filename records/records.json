@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-07-10T06:18:00+00:00",
+  "exported_at": "2026-07-13T10:31:23+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -106,6 +106,19 @@
       "output_dir": "",
       "created_at": "2026-07-10T06:17:59+00:00",
       "updated_at": "2026-07-10T06:17:59+00:00"
+    },
+    {
+      "id": "5e8e6f52a9df1471",
+      "series": "入园适应与社交系列",
+      "theme": "第一次上幼儿园",
+      "title": "第一次上幼儿园",
+      "status": "completed",
+      "summary": "小柚第一次上幼儿园，在妈妈和老师的等待中先看一看、坐在边边，再用滚球完成一个小回应，最后愿意明天再来。",
+      "characters": "",
+      "style": "",
+      "output_dir": "outputs/picturebooks/ruyuan-shiying-yu-shejiao/diyici-shang-youeryuan",
+      "created_at": "2026-07-13T04:28:56+00:00",
+      "updated_at": "2026-07-13T10:30:30+00:00"
     }
   ]
 }
