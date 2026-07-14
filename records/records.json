@@ -1,7 +1,7 @@
 {
   "version": 1,
   "database": "D:\\codex-projects\\picturebook-creation\\records\\picturebook_records.sqlite",
-  "exported_at": "2026-07-13T15:02:51+00:00",
+  "exported_at": "2026-07-14T06:36:48+00:00",
   "records": [
     {
       "id": "72d68b3b61db6053",
@@ -93,6 +93,19 @@
       "output_dir": "outputs/picturebooks/ruyuan-shiying-yu-shejiao/diyici-shang-youeryuan",
       "created_at": "2026-07-13T04:28:56+00:00",
       "updated_at": "2026-07-13T10:30:30+00:00"
+    },
+    {
+      "id": "2ea9f804c56f3524",
+      "series": "亲情与爱的表达",
+      "theme": "爸爸带我去冒险",
+      "title": "爸爸带我去冒险",
+      "status": "draft",
+      "summary": "小禾和爸爸在家里客厅用地图、低矮枕头山和开放毛毯洞玩一场安全的假装冒险；已根据反馈修正墙上统一相框和亲子都不穿鞋，完成角色参考图、无字封面、10页无字内页和整本联系表；排版/PDF/PPTX未完成。",
+      "characters": "C01-小禾; A01-爸爸",
+      "style": "透明水彩和彩铅线条，雨后窗光客厅，统一浅木框青绿色抽象画，亲子室内袜不穿鞋，3:4竖版1536x2048",
+      "output_dir": "outputs/picturebooks/qinqing-yu-ai-de-biaoda/baba-dai-wo-qu-maoxian",
+      "created_at": "2026-07-14T02:05:02+00:00",
+      "updated_at": "2026-07-14T06:36:38+00:00"
     }
   ]
 }
